@@ -19,6 +19,9 @@
 		ACA5AAAA18F82CC000E3866A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA5AA9218F82CC000E3866A /* UIKit.framework */; };
 		ACA5AAB218F82CC000E3866A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACA5AAB018F82CC000E3866A /* InfoPlist.strings */; };
 		ACA5AAB418F82CC000E3866A /* ToDoSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA5AAB318F82CC000E3866A /* ToDoSampleTests.m */; };
+		ACA5AABE18F82DBB00E3866A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA5AABD18F82DBB00E3866A /* Main.storyboard */; };
+		ACB369A118F834B0002C0AFA /* TDSItemListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB369A018F834B0002C0AFA /* TDSItemListViewController.m */; };
+		ACB369A418F83AE6002C0AFA /* TDSCreateItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB369A318F83AE6002C0AFA /* TDSCreateItemViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		ACA5AAAF18F82CC000E3866A /* ToDoSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoSampleTests-Info.plist"; sourceTree = "<group>"; };
 		ACA5AAB118F82CC000E3866A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ACA5AAB318F82CC000E3866A /* ToDoSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoSampleTests.m; sourceTree = "<group>"; };
+		ACA5AABD18F82DBB00E3866A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		ACB3699F18F834B0002C0AFA /* TDSItemListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDSItemListViewController.h; sourceTree = "<group>"; };
+		ACB369A018F834B0002C0AFA /* TDSItemListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDSItemListViewController.m; sourceTree = "<group>"; };
+		ACB369A218F83AE6002C0AFA /* TDSCreateItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDSCreateItemViewController.h; sourceTree = "<group>"; };
+		ACB369A318F83AE6002C0AFA /* TDSCreateItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDSCreateItemViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,11 @@
 			children = (
 				ACA5AA9D18F82CC000E3866A /* TDSAppDelegate.h */,
 				ACA5AA9E18F82CC000E3866A /* TDSAppDelegate.m */,
+				ACA5AABD18F82DBB00E3866A /* Main.storyboard */,
+				ACB369A218F83AE6002C0AFA /* TDSCreateItemViewController.h */,
+				ACB369A318F83AE6002C0AFA /* TDSCreateItemViewController.m */,
+				ACB3699F18F834B0002C0AFA /* TDSItemListViewController.h */,
+				ACB369A018F834B0002C0AFA /* TDSItemListViewController.m */,
 				ACA5AAA018F82CC000E3866A /* Images.xcassets */,
 				ACA5AA9518F82CC000E3866A /* Supporting Files */,
 			);
@@ -220,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACA5AABE18F82DBB00E3866A /* Main.storyboard in Resources */,
 				ACA5AA9918F82CC000E3866A /* InfoPlist.strings in Resources */,
 				ACA5AAA118F82CC000E3866A /* Images.xcassets in Resources */,
 			);
@@ -241,6 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACA5AA9F18F82CC000E3866A /* TDSAppDelegate.m in Sources */,
+				ACB369A418F83AE6002C0AFA /* TDSCreateItemViewController.m in Sources */,
+				ACB369A118F834B0002C0AFA /* TDSItemListViewController.m in Sources */,
 				ACA5AA9B18F82CC000E3866A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +454,7 @@
 				ACA5AAB918F82CC000E3866A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACA5AABA18F82CC000E3866A /* Build configuration list for PBXNativeTarget "ToDoSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +463,7 @@
 				ACA5AABC18F82CC000E3866A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
